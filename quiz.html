@@ -1,0 +1,30 @@
+<DOCTYPE HTML>
+<head>
+	<!-- <link rel="stylesheet" type="text/css" href="quiz.css"> -->
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+<body>
+	<div class='jumbotron'>
+	<div class='container'>
+	<div class='row 'id='all'>
+	<div class='col-md-4'>
+	<input type='file'  accept='text/plain' onchange='openFile(event)'>
+	<button id="start_quiz" class="btn btn-primary">Start!</button>
+	<div id="word"></div>
+	<textarea id="answer" cols='30'></textarea>
+	<button id="submit_answer">Submit answer!</button>
+	<p id="score"></p>
+	<script src="quiz.js"></script>
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
